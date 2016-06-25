@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This file contains job definitions in schema version 2.0 format -->
+
+<job-scheduling-data xmlns="http://quartznet.sourceforge.net/JobSchedulingData" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0">
+
+  <processing-directives>
+    <overwrite-existing-data>true</overwrite-existing-data>
+  </processing-directives>
+
+  <schedule>
+    <job>
+      <name>QuartzFromSqlToRedisJob</name>
+      <group>Test</group>
+      <description>FromSqlToRedis</description>
+      <job-type>Yanwen.Partner.JinFeng.Gateway.Quartz.QuartzFromRedisToApi,Yanwen.Partner.JinFeng.Gateway.Quartz</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <cron>
+        <name>QuartzFromSqlToRedisTrigger</name>
+        <group>Test</group>
+        <job-name>QuartzFromSqlToRedisJob</job-name>
+        <job-group>Test</job-group>
+        <start-time>2015-01-22T00:00:00+08:00</start-time>
+        <cron-expression>0 0 0 * * ?</cron-expression>
+      </cron>
+    </trigger>
+  </schedule>
+</job-scheduling-data>

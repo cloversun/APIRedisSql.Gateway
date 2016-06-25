@@ -1,0 +1,1 @@
+C:\project\APIRedisSql.Gateway\APIRedisSql.Gateway.Test\obj\Debug\APIRedisSql.Gateway.Test.csprojResolveAssemblyReference.cache
