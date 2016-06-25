@@ -3,6 +3,7 @@ using System.Configuration;
 using System.Linq;
 using NUnit.Framework;
 using StackExchange.Redis;
+using APIRedisSql.Gateway.Model;
 
 namespace APIRedisSql.Gateway.Test
 {
@@ -13,7 +14,7 @@ namespace APIRedisSql.Gateway.Test
         public void PushToRedisTest()
         {
             Redishelper.Delete("testRedisList");
-            Redishelper.Push("testRedisList", new SortingInfo());
+            Redishelper.Push("testRedisList", new AAGetModel());
             //Assert.AreEqual(resultnumber,1);
         }
 
@@ -49,12 +50,12 @@ namespace APIRedisSql.Gateway.Test
         public void RedisToApi()
         {
             Redishelper.Delete("SortingList");
-            var peroidLists = SqlDal.GetPeriodSortingInfoList();
+            var peroidLists = SqlDal.GetPeriodAAModelList();
             if (peroidLists.Count <= 0) return;
-            Redishelper.PushList<SortingInfo>("SortingList", peroidLists);
-            var peroidListsPop = Redishelper.PopList<SortingInfo>("SortingList", Convert.ToInt16(ConfigurationManager.AppSettings["OncRedisPopNumber"]));
+            Redishelper.PushList<AAGetModel>("SortingList", peroidLists);
+            var peroidListsPop = Redishelper.PopList<AAGetModel>("SortingList", Convert.ToInt16(ConfigurationManager.AppSettings["OncRedisPopNumber"]));
             var a = peroidListsPop.First();
-            Assert.IsNotNull(a.WaybillNumber);
+            Assert.IsNotNull(a.BillNumber);
         }
     }
 }
