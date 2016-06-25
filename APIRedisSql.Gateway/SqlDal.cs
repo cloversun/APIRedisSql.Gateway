@@ -18,7 +18,7 @@ namespace APIRedisSql.Gateway
             ConfigurationManager.ConnectionStrings["DefaultConnection"].ConnectionString;
 
 
-        private static SqlConnection OpenConnection()
+        public static SqlConnection OpenConnection()
         {
             var connection = new SqlConnection(Connectionstring);
             connection.Open();
@@ -32,7 +32,7 @@ namespace APIRedisSql.Gateway
 
             //写and status = 0; 状态是三种，0 没取，1 取到redis里但还没有被API拿走，2取完了
             string selectSql =
-                $"select top({OnceRedisPushNumber}) ChannelID as ChannelID, ChannelName as ChannelName from AAA  where MoveStatus = '0'";
+                $"select top({OnceRedisPushNumber}) BillNumber, Weight from Logistics.JinFengTestAA  where MoveStatus = '0'";
             try
             {
                 using (var conn = OpenConnection())
@@ -55,7 +55,7 @@ namespace APIRedisSql.Gateway
             var exchangeNumberList = sortingInfoList.Aggregate("",
                 (current, sortingInfo) => current + "'" + sortingInfo.BillNumber + "'" + ",");
             string setStutasTo1 =
-             $"update AAA SET MoveStatus = '1' where WaybillNumber in ({exchangeNumberList.TrimEnd(',')})";
+             $"update Logistics.JinFengTestAA SET MoveStatus = '1' where WaybillNumber in ({exchangeNumberList.TrimEnd(',')})";
             try
             {
                 using (var conn = OpenConnection())
@@ -73,7 +73,7 @@ namespace APIRedisSql.Gateway
         public static void InsertPostInfo(List<BBPostModel> BBModelList)
         {
             string insertString =
-                $"INSERT INTO BBB ( ChannelID, ChannelName) VALUES ";
+                $"INSERT INTO Logistics.JinFengTestBB ( ChannelID, ChannelName) VALUES ";
             insertString = BBModelList.Aggregate(insertString, (current, BBModel) => current + $"( {BBModel.ChannelID}, '{BBModel.ChannelName}'),");
             insertString = insertString.TrimEnd(',');
             try
