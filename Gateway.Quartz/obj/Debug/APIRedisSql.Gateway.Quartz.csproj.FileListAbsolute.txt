@@ -1,0 +1,1 @@
+C:\project\APIRedisSql.Gateway\Gateway.Quartz\obj\Debug\APIRedisSql.Gateway.Quartz.csprojResolveAssemblyReference.cache

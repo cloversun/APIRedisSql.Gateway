@@ -1,5 +1,4 @@
-﻿
-using Topshelf;
+﻿using Topshelf;
 
 namespace Gateway.Quartz
 {
