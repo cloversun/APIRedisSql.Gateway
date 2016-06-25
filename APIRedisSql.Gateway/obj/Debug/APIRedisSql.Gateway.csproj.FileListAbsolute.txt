@@ -33,6 +33,6 @@ C:\project\APIRedisSql.Gateway\APIRedisSql.Gateway\bin\Debug\System.Web.Http.xml
 C:\project\APIRedisSql.Gateway\APIRedisSql.Gateway\bin\Debug\System.Web.Http.Owin.xml
 C:\project\APIRedisSql.Gateway\APIRedisSql.Gateway\obj\Debug\APIRedisSql.Gateway.exe
 C:\project\APIRedisSql.Gateway\APIRedisSql.Gateway\obj\Debug\APIRedisSql.Gateway.pdb
-C:\project\APIRedisSql.Gateway\APIRedisSql.Gateway\obj\Debug\APIRedisSql.Gateway.csprojResolveAssemblyReference.cache
 C:\project\APIRedisSql.Gateway\APIRedisSql.Gateway\bin\Debug\App.config
 C:\project\APIRedisSql.Gateway\APIRedisSql.Gateway\bin\Debug\Nlog.config
+C:\project\APIRedisSql.Gateway\APIRedisSql.Gateway\obj\Debug\APIRedisSql.Gateway.csprojResolveAssemblyReference.cache
