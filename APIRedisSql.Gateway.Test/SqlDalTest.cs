@@ -1,4 +1,6 @@
-﻿
+﻿using System.Collections.Generic;
+using System.Data.SqlClient;
+using System.Linq;
 using NUnit.Framework;
 using APIRedisSql.Gateway.Model;
 
@@ -8,11 +10,18 @@ namespace APIRedisSql.Gateway.Test
     public class SqlDalTest
     {
 
+
+        [Test]
+        public void OpenConnectionTest()
+        {
+            SqlConnection a = SqlDal.OpenConnection();
+
+        }
         [Test]
         public void GetPeriodSortingInfoSqlToRedisTest()
         {
-            var peroidLists = SqlDal.GetPeriodAAModelList();
-            if (peroidLists.Count > 0)
+            List<AAGetModel> peroidLists = SqlDal.GetPeriodAAModelList();
+            if (peroidLists.Any())
             {
                 Redishelper.PushList<AAGetModel>("SortingList", peroidLists);
             }

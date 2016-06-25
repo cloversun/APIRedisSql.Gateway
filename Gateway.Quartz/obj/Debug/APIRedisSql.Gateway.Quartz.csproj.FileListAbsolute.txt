@@ -1,4 +1,3 @@
-C:\project\APIRedisSql.Gateway\Gateway.Quartz\obj\Debug\APIRedisSql.Gateway.Quartz.csprojResolveAssemblyReference.cache
 C:\project\APIRedisSql.Gateway\Gateway.Quartz\bin\Debug\App.config
 C:\project\APIRedisSql.Gateway\Gateway.Quartz\bin\Debug\Nlog.config
 C:\project\APIRedisSql.Gateway\Gateway.Quartz\bin\Debug\Gateway.Quartz.exe.config
@@ -17,8 +16,6 @@ C:\project\APIRedisSql.Gateway\Gateway.Quartz\bin\Debug\Dapper.dll
 C:\project\APIRedisSql.Gateway\Gateway.Quartz\bin\Debug\System.Web.Http.Owin.dll
 C:\project\APIRedisSql.Gateway\Gateway.Quartz\bin\Debug\Jil.dll
 C:\project\APIRedisSql.Gateway\Gateway.Quartz\bin\Debug\System.Net.Http.Formatting.dll
-C:\project\APIRedisSql.Gateway\Gateway.Quartz\bin\Debug\Newtonsoft.Json.dll
-C:\project\APIRedisSql.Gateway\Gateway.Quartz\bin\Debug\Microsoft.Owin.dll
 C:\project\APIRedisSql.Gateway\Gateway.Quartz\bin\Debug\Sigil.dll
 C:\project\APIRedisSql.Gateway\Gateway.Quartz\bin\Debug\APIRedisSql.Gateway.pdb
 C:\project\APIRedisSql.Gateway\Gateway.Quartz\bin\Debug\NLog.xml
@@ -34,8 +31,7 @@ C:\project\APIRedisSql.Gateway\Gateway.Quartz\bin\Debug\System.Web.Http.Owin.xml
 C:\project\APIRedisSql.Gateway\Gateway.Quartz\bin\Debug\Jil.pdb
 C:\project\APIRedisSql.Gateway\Gateway.Quartz\bin\Debug\Jil.xml
 C:\project\APIRedisSql.Gateway\Gateway.Quartz\bin\Debug\System.Net.Http.Formatting.xml
-C:\project\APIRedisSql.Gateway\Gateway.Quartz\bin\Debug\Newtonsoft.Json.xml
-C:\project\APIRedisSql.Gateway\Gateway.Quartz\bin\Debug\Microsoft.Owin.xml
 C:\project\APIRedisSql.Gateway\Gateway.Quartz\bin\Debug\Sigil.xml
+C:\project\APIRedisSql.Gateway\Gateway.Quartz\obj\Debug\APIRedisSql.Gateway.Quartz.csprojResolveAssemblyReference.cache
 C:\project\APIRedisSql.Gateway\Gateway.Quartz\obj\Debug\Gateway.Quartz.exe
 C:\project\APIRedisSql.Gateway\Gateway.Quartz\obj\Debug\Gateway.Quartz.pdb

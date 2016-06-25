@@ -1,6 +1,6 @@
-C:\project\APIRedisSql.Gateway\APIRedisSql.Gateway.Test\obj\Debug\APIRedisSql.Gateway.Test.csprojResolveAssemblyReference.cache
 C:\project\APIRedisSql.Gateway\APIRedisSql.Gateway.Test\bin\Debug\App.config
 C:\project\APIRedisSql.Gateway\APIRedisSql.Gateway.Test\bin\Debug\Nlog.config
+C:\project\APIRedisSql.Gateway\APIRedisSql.Gateway.Test\bin\Debug\APIRedisSql.Gateway.Test.dll.config
 C:\project\APIRedisSql.Gateway\APIRedisSql.Gateway.Test\bin\Debug\APIRedisSql.Gateway.Test.dll
 C:\project\APIRedisSql.Gateway\APIRedisSql.Gateway.Test\bin\Debug\APIRedisSql.Gateway.Test.pdb
 C:\project\APIRedisSql.Gateway\APIRedisSql.Gateway.Test\bin\Debug\APIRedisSql.Gateway.exe
@@ -16,8 +16,6 @@ C:\project\APIRedisSql.Gateway\APIRedisSql.Gateway.Test\bin\Debug\System.Web.Htt
 C:\project\APIRedisSql.Gateway\APIRedisSql.Gateway.Test\bin\Debug\Jil.dll
 C:\project\APIRedisSql.Gateway\APIRedisSql.Gateway.Test\bin\Debug\Topshelf.NLog.dll
 C:\project\APIRedisSql.Gateway\APIRedisSql.Gateway.Test\bin\Debug\System.Net.Http.Formatting.dll
-C:\project\APIRedisSql.Gateway\APIRedisSql.Gateway.Test\bin\Debug\Newtonsoft.Json.dll
-C:\project\APIRedisSql.Gateway\APIRedisSql.Gateway.Test\bin\Debug\Microsoft.Owin.dll
 C:\project\APIRedisSql.Gateway\APIRedisSql.Gateway.Test\bin\Debug\Sigil.dll
 C:\project\APIRedisSql.Gateway\APIRedisSql.Gateway.Test\bin\Debug\APIRedisSql.Gateway.pdb
 C:\project\APIRedisSql.Gateway\APIRedisSql.Gateway.Test\bin\Debug\nunit.framework.xml
@@ -32,8 +30,7 @@ C:\project\APIRedisSql.Gateway\APIRedisSql.Gateway.Test\bin\Debug\System.Web.Htt
 C:\project\APIRedisSql.Gateway\APIRedisSql.Gateway.Test\bin\Debug\Jil.pdb
 C:\project\APIRedisSql.Gateway\APIRedisSql.Gateway.Test\bin\Debug\Jil.xml
 C:\project\APIRedisSql.Gateway\APIRedisSql.Gateway.Test\bin\Debug\System.Net.Http.Formatting.xml
-C:\project\APIRedisSql.Gateway\APIRedisSql.Gateway.Test\bin\Debug\Newtonsoft.Json.xml
-C:\project\APIRedisSql.Gateway\APIRedisSql.Gateway.Test\bin\Debug\Microsoft.Owin.xml
 C:\project\APIRedisSql.Gateway\APIRedisSql.Gateway.Test\bin\Debug\Sigil.xml
+C:\project\APIRedisSql.Gateway\APIRedisSql.Gateway.Test\obj\Debug\APIRedisSql.Gateway.Test.csprojResolveAssemblyReference.cache
 C:\project\APIRedisSql.Gateway\APIRedisSql.Gateway.Test\obj\Debug\APIRedisSql.Gateway.Test.dll
 C:\project\APIRedisSql.Gateway\APIRedisSql.Gateway.Test\obj\Debug\APIRedisSql.Gateway.Test.pdb
