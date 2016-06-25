@@ -66,6 +66,12 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\APIRedisSql.Gateway\APIRedisSql.Gateway.csproj">
+      <Project>{EEF8EB82-729D-4135-9B49-FB76E04D9F7C}</Project>
+      <Name>APIRedisSql.Gateway</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

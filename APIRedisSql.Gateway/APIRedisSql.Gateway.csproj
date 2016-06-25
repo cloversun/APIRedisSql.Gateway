@@ -109,8 +109,8 @@
     <Compile Include="Controller\GatewayControllerBase.cs" />
     <Compile Include="Extensions\JsonExtension.cs" />
     <Compile Include="GatewayApplication.cs" />
-    <Compile Include="Model\AAPostModel.cs" />
-    <Compile Include="Model\BBGetModel.cs" />
+    <Compile Include="Model\AAGettModel.cs" />
+    <Compile Include="Model\BBPostModel.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Redishelper.cs" />
